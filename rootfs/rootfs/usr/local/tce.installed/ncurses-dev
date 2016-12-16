@@ -1,0 +1,37 @@
+#!/bin/sh
+#
+[ -d /usr/include ] || mkdir -p /usr/include
+#
+ln -s /usr/local/include/etip.h /usr/include/etip.h
+ln -s /usr/local/include/cursslk.h /usr/include/cursslk.h
+ln -s /usr/local/include/cursesw.h /usr/include/cursesw.h
+ln -s /usr/local/include/cursesp.h /usr/include/cursesp.h
+ln -s /usr/local/include/cursesm.h /usr/include/cursesm.h
+ln -s /usr/local/include/cursesf.h /usr/include/cursesf.h
+ln -s /usr/local/include/cursesapp.h /usr/include/cursesapp.h
+ln -s /usr/local/include/form.h /usr/include/form.h
+ln -s /usr/local/include/menu.h /usr/include/menu.h
+ln -s /usr/local/include/eti.h /usr/include/eti.h
+ln -s /usr/local/include/panel.h /usr/include/panel.h
+ln -s /usr/local/include/nc_tparm.h /usr/include/nc_tparm.h
+ln -s /usr/local/include/term_entry.h /usr/include/term_entry.h
+ln -s /usr/local/include/tic.h /usr/include/tic.h
+ln -s /usr/local/include/ncurses_dll.h /usr/include/ncurses_dll.h
+ln -s /usr/local/include/termcap.h /usr/include/termcap.h
+ln -s /usr/local/include/unctrl.h /usr/include/unctrl.h
+ln -s /usr/local/include/ncurses.h /usr/include/ncurses.h
+ln -s /usr/local/include/curses.h /usr/include/curses.h
+ln -s /usr/local/include/term.h /usr/include/term.h
+#
+ln -s /usr/local/lib/libpanelw.a /usr/lib/libpanelw.a
+ln -s /usr/local/lib/libpanel.a /usr/lib/libpanel.a
+ln -s /usr/local/lib/libncursesw.a /usr/lib/libncursesw.a
+ln -s /usr/local/lib/libncurses.a /usr/lib/libncurses.a
+ln -s /usr/local/lib/libncurses++.a /usr/lib/libncurses++.a
+ln -s /usr/local/lib/libncurses++w.a /usr/lib/libncursesw++.a
+ln -s /usr/local/lib/libmenuw.a /usr/lib/libmenuw.a
+ln -s /usr/local/lib/libmenu.a /usr/lib/libmenu.a
+ln -s /usr/local/lib/libformw.a /usr/lib/libformw.a
+ln -s /usr/local/lib/libform.a /usr/lib/libform.a
+ln -s /usr/local/lib/libcurses.a /usr/lib/libcurses.a
+ln -s /usr/local/lib/libcursesw.a /usr/lib/libcursesw.a

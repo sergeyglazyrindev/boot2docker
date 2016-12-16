@@ -1,6 +1,6 @@
 FROM debian:jessie
 
-RUN apt-get update && apt-get -y install  unzip \
+RUN apt-get update && apt-get -y install unzip \
                         xz-utils \
                         curl \
                         bc \
